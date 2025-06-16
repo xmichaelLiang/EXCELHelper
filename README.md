@@ -1,59 +1,59 @@
-# ExcelNPOILib
-³o¬O¤@­Ó¦Û¦æ¼¶¼gªº³B²zEXCELÀÉ®×¨ç¦¡
-1.¥D­n¥Î©ó±Nª«¥ó¶°¦X¶×¥X¬° Excel ÀÉ®×¡A¨Ã¥i¦Û­qÄæ¦ì¦WºÙ»P¶¶§Ç¡C¥Ø«eEXCELÀÉªºCELL®æ¦¡¬Oµ{¦¡¤¤¹w³]®æ½u»P
-   ¤º«Øªº¦r«¬¤j¤p¡A¥¼¨Ó¥i¥HÂX¥R¥Ñ¥~³¡¶Ç¤J¡C
-2.¸ÑªREXCELÀÉ¡A±NEXCELÀÉÂà´«¬°ª«¥ó¶°¦X¡C
-3.·í®É¼¶¼g¦¹¨ç¦¡®É¡A¥D­n¬O½m²ß¬M®gªºÆ[©À¡A©Ò¥H¨Ï¥Î¤FÄİ©Ê¬M®g¡]Attribute Mapping¡^¨Ó¦Û°Ê¹ïÀ³ Excel Äæ¦ì¡A
-  ¨Ã¥BÂ²¤Æ²£¥Í¬J©w®æ¦¡EXCELÀÉ»P¸ÑªREXCELÀÉªºµ{¦¡½X¡C
-¥¦°ò©ó .NET Standard 2.1 »P NPOI ®M¥ó »P [NPOI](https://github.com/tonyqus/npoi) ®M¥óªº Excel ÀÉ®×¾Ş§@¨ç¦¡®w¡A¤ä´© xls/xlsx ®æ¦¡¡A¤è«K±Nª«¥ó¶°¦X¶×¥X¬° Excel ÀÉ®×¡A¨Ã¥i¦Û­qÄæ¦ì¦WºÙ»P¶¶§Ç¡C
+# ExcelHelper
+é€™æ˜¯ä¸€å€‹è‡ªè¡Œæ’°å¯«çš„è™•ç†EXCELæª”æ¡ˆå‡½å¼  
+1. ä¸»è¦ç”¨æ–¼å°‡ç‰©ä»¶é›†åˆåŒ¯å‡ºç‚º Excel æª”æ¡ˆï¼Œä¸¦å¯è‡ªè¨‚æ¬„ä½åç¨±èˆ‡é †åºã€‚ç›®å‰EXCELæª”çš„CELLæ ¼å¼æ˜¯ç¨‹å¼ä¸­é è¨­æ ¼ç·šèˆ‡  
+   å…§å»ºçš„å­—å‹å¤§å°ï¼Œæœªä¾†å¯ä»¥æ“´å……ç”±å¤–éƒ¨å‚³å…¥ã€‚  
+2. è§£æEXCELæª”ï¼Œå°‡EXCELæª”è½‰æ›ç‚ºç‰©ä»¶é›†åˆã€‚  
+3. ç•¶æ™‚æ’°å¯«æ­¤å‡½å¼æ™‚ï¼Œä¸»è¦æ˜¯ç·´ç¿’æ˜ å°„çš„è§€å¿µï¼Œæ‰€ä»¥ä½¿ç”¨äº†å±¬æ€§æ˜ å°„ï¼ˆAttribute Mappingï¼‰ä¾†è‡ªå‹•å°æ‡‰ Excel æ¬„ä½ï¼Œ  
+   ä¸¦ä¸”ç°¡åŒ–ç”¢ç”Ÿæ—¢å®šæ ¼å¼EXCELæª”èˆ‡è§£æEXCELæª”çš„ç¨‹å¼ç¢¼ã€‚  
+å®ƒåŸºæ–¼ .NET Standard 2.1 èˆ‡ NPOI å¥—ä»¶ èˆ‡ [NPOI](https://github.com/tonyqus/npoi) å¥—ä»¶çš„ Excel æª”æ¡ˆæ“ä½œå‡½å¼åº«ï¼Œæ”¯æ´ xls/xlsx æ ¼å¼ï¼Œæ–¹ä¾¿å°‡ç‰©ä»¶é›†åˆåŒ¯å‡ºç‚º Excel æª”æ¡ˆï¼Œä¸¦å¯è‡ªè¨‚æ¬„ä½åç¨±èˆ‡é †åºã€‚  
 
-## ¯S¦â
+## ç‰¹è‰²
 
-- ¤ä´© .NET Standard 2.1¡A¸ó¥­¥x¥i¥Î
-- ¥HÄİ©Ê¬M®g¡]Attribute Mapping¡^¦Û°Ê¹ïÀ³ Excel Äæ¦ì
-- ¦Û­qÄæ¦ì¦WºÙ»P¶¶§Ç
-- ¦Û°Ê²£¥Í¼ĞÃD¦C»P¸ê®Æ¦C
-- ¤ä´© xls (Excel 97-2003) ¤Î xlsx (Excel 2007+) ®æ¦¡
-- ¤º«ØÄæ¦ì¦Û°Ê¼e«×½Õ¾ã
-- ¥i¦Û­qªíÀY»P¤º®e¼Ë¦¡
+- æ”¯æ´ .NET Standard 2.1ï¼Œè·¨å¹³å°å¯ç”¨
+- ä»¥å±¬æ€§æ˜ å°„ï¼ˆAttribute Mappingï¼‰è‡ªå‹•å°æ‡‰ Excel æ¬„ä½
+- è‡ªè¨‚æ¬„ä½åç¨±èˆ‡é †åº
+- è‡ªå‹•ç”¢ç”Ÿæ¨™é¡Œåˆ—èˆ‡è³‡æ–™åˆ—
+- æ”¯æ´ xls (Excel 97-2003) åŠ xlsx (Excel 2007+) æ ¼å¼
+- å…§å»ºæ¬„ä½è‡ªå‹•å¯¬åº¦èª¿æ•´
+- å¯è‡ªè¨‚è¡¨é ­èˆ‡å…§å®¹æ¨£å¼
 
-## ¦w¸Ë
+## å®‰è£
 
-½Ğ¥ı¦w¸Ë [NPOI](https://www.nuget.org/packages/NPOI/)
+è«‹å…ˆå®‰è£ [NPOI](https://www.nuget.org/packages/NPOI/)
 
-## ¨Ï¥Î¤è¦¡
+## ä½¿ç”¨æ–¹å¼
 
-1. ©w¸q¸ê®Æ¼Ò«¬¡A¨Ã¥H `PropertyColumnNameAttribute` »P `PropertySeqAttribute` ¼ĞµùÄİ©Ê¡G
+1. å®šç¾©è³‡æ–™æ¨¡å‹ï¼Œä¸¦ä»¥ `PropertyColumnNameAttribute` èˆ‡ `PropertySeqAttribute` æ¨™è¨»å±¬æ€§ï¼š
 ```csharp
 using ExcelNPOILib;
-public class Person { [PropertySeq(1)] [PropertyColumnName("©m¦W")] public string Name { get; set; }
+public class Person { [PropertySeq(1)] [PropertyColumnName("å§“å")] public string Name { get; set; }
 [PropertySeq(2)]
-[PropertyColumnName("¦~ÄÖ")]
+[PropertyColumnName("å¹´é½¡")]
 public int Age { get; set; }
 
 [PropertySeq(3)]
-[PropertyColumnName("¥Í¤é")]
+[PropertyColumnName("ç”Ÿæ—¥")]
 public DateTime Birthday { get; set; }
 }
 ```
 	
-2. ¶×¥X Excel¡G
+2. åŒ¯å‡º Excelï¼š
 ```csharp
-var people = new List<Person> { new Person { Name = "¤ı¤p©ú", Age = 30, Birthday = new DateTime(1993, 1, 1) }, new Person { Name = "§õ¤pµØ", Age = 25, Birthday = new DateTime(1998, 5, 20) } };
+var people = new List<Person> { new Person { Name = "ç‹å°æ˜", Age = 30, Birthday = new DateTime(1993, 1, 1) }, new Person { Name = "æå°è¯", Age = 25, Birthday = new DateTime(1998, 5, 20) } };
 var service = new ExcelNPOIService(); 
-service.CreateExcel("people.xlsx", "¤H­û²M³æ", people);
+service.CreateExcel("people.xlsx", "äººå“¡æ¸…å–®", people);
 ```
 
 
-## Äİ©Ê¼Ğµù»¡©ú
+## å±¬æ€§æ¨™è¨»èªªæ˜
 
 - `PropertySeqAttribute(int seq)`  
-  «ü©wÄæ¦ì¦b Excel ¤¤ªº¶¶§Ç¡A¼Æ¦r¶V¤p¶V«e­±¡C
+  æŒ‡å®šæ¬„ä½åœ¨ Excel ä¸­çš„é †åºï¼Œæ•¸å­—è¶Šå°è¶Šå‰é¢ã€‚
 - `PropertyColumnNameAttribute(string columnName)`  
-  «ü©wÄæ¦ì¦b Excel ¤¤ªºÅã¥Ü¦WºÙ¡C
+  æŒ‡å®šæ¬„ä½åœ¨ Excel ä¸­çš„é¡¯ç¤ºåç¨±ã€‚
 
-## ±M®×µ²ºc
+## å°ˆæ¡ˆçµæ§‹
 
-- `ExcelNPOIService`¡G¥D­nªº Excel ¸ÑªR»P¶×¥XªA°ÈÃş§O
-- `PropertySeqAttribute`¡GÄİ©Ê¶¶§Ç¼Ğµù
-- `PropertyColumnNameAttribute`¡GÄİ©ÊÄæ¦ì¦WºÙ¼Ğµù
+- `ExcelNPOIService`ï¼šä¸»è¦çš„ Excel è§£æèˆ‡åŒ¯å‡ºæœå‹™é¡åˆ¥
+- `PropertySeqAttribute`ï¼šå±¬æ€§é †åºæ¨™è¨»
+- `PropertyColumnNameAttribute`ï¼šå±¬æ€§æ¬„ä½åç¨±æ¨™è¨»
